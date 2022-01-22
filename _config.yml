@@ -23,7 +23,7 @@ ads_href_visitors_badge:
 ads_href_label_visitors_badge: 
 
 # Copyright author
-author: peppelongo96
+author: giovannip7
 
 # Images
 avatar: ''
@@ -31,17 +31,13 @@ background: ''
 favicon: ''
 
 # Social links
-facebook: ''
-twitter: ''
-linkedin: ''
-instagram: ''
-github: ''
-email: ''
-phone: ''
-whatsapp: ''
-telegram: ''
+linkedin: 'www.linkedin.com/in/giovanni-porcellato-3a229b149'
+instagram: 'https://www.instagram.com/giovanni.porcellato/'
+github: 'https://github.com/giovannip7'
+email: 'giovanniporcellato7@gmail.com'
 
-social-links-order: [phone, email, linkedin, github, whatsapp, telegram, facebook, instagram, twitter]
+
+social-links-order: [email, linkedin, github, instagram]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -64,14 +60,6 @@ social-links-order: [phone, email, linkedin, github, whatsapp, telegram, faceboo
 #     - **optional**
 
 social-links:
-  - name: facebook
-    url-pattern: facebook.com/__USERNAME__
-    icon-class: fab fa-2x fa-facebook
-
-  - name: twitter
-    url-pattern: twitter.com/__USERNAME__
-    icon-class: fab fa-2x fa-twitter
-
   - name: linkedin
     url-pattern: linkedin.com/in/__USERNAME__
     icon-class: fab fa-2x fa-linkedin
@@ -84,20 +72,8 @@ social-links:
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
-  - name: telegram
-    url-pattern: telegram.me/__USERNAME__
-    icon-class: fab fa-2x fa-telegram
-
   - name: email
     url-scheme: 'mailto:'
     url-pattern: __USERNAME__
     icon-class: fas fa-2x fa-at
     
-  - name: phone
-    url-scheme: 'tel:'
-    url-pattern: __USERNAME__
-    icon-class: fas fa-2x fa-phone-alt
-   
-  - name: whatsapp
-    url-pattern: wa.me/__USERNAME__
-    icon-class: fab fa-2x fa-whatsapp
